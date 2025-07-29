@@ -1,0 +1,21 @@
+{
+  "name": "@solana-bootcamp/week1",
+  "version": "1.0.0",
+  "license": "MIT",
+  "extension": [
+    "ts"
+  ],
+  "scripts": {
+    "execute": "npx ts-node -r tsconfig-paths/register"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.2",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.2",
+    "typescript": "^4.8.4"
+  }
+}
